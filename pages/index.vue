@@ -44,6 +44,7 @@ export default {
         .then((response) => {
           let {data,meta} = response.data;
           if (meta.status == 200) {
+          
             this.Slogan = data.Slogan;
             console.log(data.professional);
             this.professional = data.professional;
